@@ -14,7 +14,7 @@ class NodeCI # 条件輸入节点（Conditional Inputs）
 
 下图是这 3 种节点的可视化结构展示：
 
-![三种节点结构](/imgs/node-types.png)
+![三种节点结构](/cellink-docs/imgs/node-types.png)
 
 - **NodeSI**：只有一个父节点
 - **NodeMI**：挂载一个或多个父节点
@@ -113,7 +113,7 @@ class Diff(NodeMI):
 
 上面代码由 Cellink 绘制的流程视图如下：
 
-![](/imgs/demo-graph.png)
+![](/cellink-docs/imgs/demo-graph.png)
 
 **当一个节点被实例化时，图中的所有其它节点都会被实例化，于是它所在的图也完成了实例化：**
 
@@ -406,5 +406,4 @@ bump = img2.seek('bump')  # AI 模型不会被二次加载，只执行业务代�
 ```
 
 @static_initializer 装饰器保证被装饰函数在整个进程周期中只调用一次，往后的调用都只是返回第一次加载进来的模型的引用。
-
 

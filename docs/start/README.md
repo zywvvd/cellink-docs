@@ -9,13 +9,13 @@
 **人是视觉动物。** 健康人类 80% 的日常活动都依赖视觉（在开发者的工作中比重可能会更高）。Cellink 允许可视化你的项目。无需另行维护，Cellink 能绘制各任务模块间的关系。让我试举例说明情况。以下流程图来自我的三个项目，它们都用 Cellink 管理：
 
 项目一：
-![](/imgs/adc-graph.png)
+![](/cellink-docs/imgs/adc-graph.png)
 
 项目二:
-![](/imgs/bearing-graph.png)
+![](/cellink-docs/imgs/bearing-graph.png)
 
 项目三:
-![](/imgs/nozzle-graph.png)
+![](/cellink-docs/imgs/nozzle-graph.png)
 
 以计算机工业视觉领域为例，来阐述 Cellink 的使用场景。一般来说，计算机视觉项目由多个子模块构成（很多其它项目亦如此），其中有些负责数据解析和格式化，有些负责图像预处理，另一些则负责算法推断。
 

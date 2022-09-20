@@ -123,4 +123,4 @@ if __name__ == '__main__':
 
 下图是上面两段代码的流程视图：
 
-![](assets/imgs/quantum-graph.png)
+![](/cellink-docs/imgs/quantum-graph.png)

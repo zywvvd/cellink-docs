@@ -11,10 +11,10 @@ module.exports = {
     },
   },
   title: 'Cellink',
-  base: '/hexo-fluid-docs/',
+  base: '/cellink-docs/',
   head: [
     ['link', { rel: 'icon', href: '/imgs/icon.png' }],
-    ['meta', { name: 'keywords', content: 'hexo,theme,fluid,hexo主题,fluid文档,用户文档,博客,文档,博客,文章,docs,doc,documentation,document,guide,blog,post,article'}]
+    ['meta', { name: 'keywords', content: 'cellink,可视化,流程管理,cellink文档,用户文档'}]
   ],
   themeConfig: {
     locales: {
