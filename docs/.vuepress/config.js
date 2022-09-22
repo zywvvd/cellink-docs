@@ -52,7 +52,6 @@ module.exports = {
     docsBranch: 'source',
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
-    // 谷歌广告的参数
   },
   plugins: {
     '@vuepress/last-updated': {
@@ -70,7 +69,7 @@ module.exports = {
       notFoundPath: '/404.html',
     },
     'sitemap': {
-      hostname: 'https://fluid-dev.github.io/',
+      hostname: 'https://zywvvd.github.io/',
       dateFormatter: time => new moment(time, 'lll').toISOString(),
     },
     'seo': {
@@ -80,7 +79,7 @@ module.exports = {
       tags: $page => $page.frontmatter.tags,
       twitterCard: _ => '/favicon.png',
       type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
-      url: (_, $site, path) => 'https://fluid-dev.github.io/' + path,
+      url: (_, $site, path) => 'https://zywvvd.github.io/' + path,
       image: ($page, $site) =>
         $page.frontmatter.image &&
         ($site.themeConfig.domain || '') + $page.frontmatter.image,

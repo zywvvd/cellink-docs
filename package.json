@@ -1,11 +1,15 @@
 {
-  "name": "hexo-fluid-docs",
-  "version": "1.8.8",
-  "description": "Docs for hexo theme fluid",
+  "name": "vuedemo",
+  "version": "1.0.0",
+  "description": "Docs for cellink project",
+  "repository": "https://github.com/zywvvd/cellink-docs",
   "main": "index.js",
-  "repository": "https://github.com/fluid-dev/hexo-fluid-docs",
-  "author": "Fluid-dev",
-  "license": "MIT",
+  "author": "zywvvd",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "ISC",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
@@ -13,6 +17,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "vue-template-compiler": "^2.7.10",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.31",
     "vue-google-adsense": "^1.10.1",
